@@ -14,8 +14,6 @@ char    *rev_print(char *str)
     return (str);
 }
 
-char *rev_print(char *str);
-
 int main() {
     char *str = "Hola";
     rev_print(str);
